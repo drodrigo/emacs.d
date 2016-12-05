@@ -1,0 +1,53 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/dyego/Documents/code-stuff/pdb/pdbcontest2/" . "src/")
+ ("/home/dyego/Documents/code-stuff/pdb/promo-info/" . "src/")
+ ("/home/dyego/Documents/code-stuff/pdb/" . "promo-info/")
+ ("/home/dyego/Documents/code-stuff/" . "pdb/")
+ ("/home/dyego/Documents/" . "code-stuff/")
+ ("/home/dyego/" . "Documents/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/dyego/Documents/code-stuff/pdb/promo-info/src/"
+ "/home/dyego/Documents/code-stuff/pdb/pdbcontest2/src/"
+ "~/Documents/code-stuff/pdb/promo-info/src/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "main.py"
+ "app.yaml"
+ "TAGS"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/dyego/" (22596 28528 259349 490000) "Videos/" ".mozilla/" ".mysql/" "Pictures/" ".zshrc" ".appcfg_oauth2_tokens" "popcorntime.tar.xz" ".gitconfig" ".macromedia/" ".npm/" "Documents/" ".ctags" ".vimrc" ".mysql_history" ".local/" ".Xauthority" ".adobe/" ".profile" ".bundle/" "../" ".pdbrc" ".NERDTreeBookmarks" ".vim/" ".zsh_history" "examples.desktop" ".gnupg/" ".fonts/" "Templates/" "README.md" ".nvimrc" ".gnome2_private/" ".v8flags.5.1.281.84.dyego.json" ".dmrc" "Music/" ".viminfo" ".gem/" ".zshrc.backup" ".emacs.d/" ".zsh-update" ".gconf/" "./" ".bash_logout" ".gnome2/" ".gnome/" ".cache/" ".zcompdump" "Desktop/" ".oh-my-zsh/" ".zcompdump-dyego-Inspiron-7520-5.1.1" ".git-credentials" ".thunderbird/" ".bash_history" "Downloads/" ".sudo_as_admin_successful" ".xsession-errors.old" "Public/" ".pki/" ".config/" ".atom/" ".nvim/" ".tmux.conf" ".xsession-errors" ".bashrc" ".wget-hsts" ".ICEauthority")
+
+ ("/home/dyego/Documents/code-stuff/pdb/promo-info/src/" (22596 14617 914256 939000) "main.py" "pdbcontesttest1.json" "../" "platform/" "templates/" "core/" "bigquery/" "appengine_config.py" "lib/" "static/" ".gitignore" "./" "app_dev.yaml" "main.pyc" "tests/" "appengine_config.pyc" "app.yaml" "app_homolog.yaml" "config/")
+
+ ("/home/dyego/Documents/code-stuff/pdb/pdbcontest2/" (22596 18352 325772 105000) "exec/" "uploadinfo.sh" ".git/" "jmeter/" "../" "TAGS" "temp/" "runtests.sh" "files/" "runsonar.sh" "test_result_jmeter/" "README.md" "tags" ".gitignore" "cert_ssl/" ".pydevproject.bak" "shell_scripts/" "legancy/" "./" "docs/" "src/")
+
+ ("/home/dyego/Documents/code-stuff/pdb/pdbcontest2/src/" (22596 18352 325772 105000) "__init__.pyc" "main.py" "helpers/" "mypromo/" "mysqlpool/" "main_auth.pyc" ".sonar/" "immediateprize/" "../" "purchase/" "TAGS" "sonar-project.properties" "core/" "index.yaml" "__init__.py" "appengine_config.py" "lib/" ".dockerignore" "static/" ".gitignore" "temp.py" "main_auth.py" "connector/" "dispatch.yaml" "./" "app_dev.yaml" "main.pyc" "setuppromo/" "tests/" "endpoint/" "main_view.py" "appengine_config.pyc" "emailsender/" "app.yaml" "proc_central.sql" "config/")
+
+ ("~/Documents/code-stuff/pdb/promo-info/src/" (22596 12179 75721 160000) "main.py" "pdbcontesttest1.json" "../" "platform/" "templates/" "core/" "bigquery/" "appengine_config.py" "lib/" "static/" ".gitignore" "./" "app_dev.yaml" "main.pyc" "tests/" "appengine_config.pyc" "app.yaml" "app_homolog.yaml" "config/")
+
+ ("/home/dyego/Documents/code-stuff/pdb/pdbcontest2/files/" (22587 4490 57636 41000) "test.csv" "../" "test_large.csv" "sql/" "generateCsv.js" "./")
+
+ ("/home/dyego/Documents/code-stuff/pdb/pdbcontest2/files/sql/" (22596 14465 101734 857000) "prc_get_immediate_prize.sql" "create_table_immediate_prize.sql" "../" "./" "proc_file.sql" "prc_get_number_for_file.sql" "prc_get_number.sql")
+
+ ("/home/dyego/Documents/code-stuff/pdb/promo-info/" (22596 12021 138265 154000) "uploadinfo.sh" ".git/" "../" "TAGS" ".settings/" ".gitignore" "./" "src/")
+
+ ("/home/dyego/Documents/code-stuff/pdb/" (22592 45130 572928 110000) "pdb-user-module/" "promo-info/" "../" "hotsite-mentos-bombameuperfil/" "promodebolsoservice/" "pdbcontest2/" "./")
+
+ ("/home/dyego/Documents/code-stuff/" (22595 25537 120620 451000) "emacs.d/" "pdb/" "../" "./" "ruby/" "javascript/" "python/")
+
+ ("/home/dyego/Documents/" (22587 3151 554854 473000) "../" "code-stuff/" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

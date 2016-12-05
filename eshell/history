@@ -6,3 +6,21 @@ tmux attach
 tmux new 
 clear
 ls
+ctags -e -R *
+rm -r TAGS 
+..
+ls
+rm -r tags 
+ctags -e -R *
+.
+..
+..
+dev_appserver.py app.yaml
+dev_appserver.py app.yaml
+exec zsh
+ls
+rm -r #ainjj
+dev_appserver.py app.yaml
+env
+echo $PATH
+clear

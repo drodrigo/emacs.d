@@ -1,42 +1,68 @@
-((("total" .
-   [1 0 0 0 0])
-  ("bar" .
+((("number" .
+   [2 0 0 0 0 0])
+  ("aux" .
    [1 0 0])
-  ("get" .
-   [1 0 0])
-  ("RequestHandler" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("webapp" .
-   [0 0 0 0 0 1])
-  ("doit" .
-   [0 0 0 1])
-  ("user" .
+  ("participation" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("cnpj" .
    [1 0 0 0])
-  ("response_data" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("response" .
+  ("doc" .
+   [1 0 0])
+  ("currency" .
+   [0 0 0 0 1 1 0 0])
+  ("i" .
+   [1])
+  ("p" .
+   [2])
+  ("product" .
+   [2 0 0 0 0 0 0])
+  ("products" .
    [1 0 0 0 0 0 0 0])
-  ("received_json_data" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("handle" .
+  ("date" .
+   [1 0 0 0])
+  ("api" .
+   [0 0 2])
+  ("datetime" .
+   [0 0 0 0 1 0 0 0])
+  ("var" .
+   [1 0 0])
+  ("function" .
+   [0 0 0 0 2 0 0 0])
+  ("Function" .
+   [0 0 1 0 0 1 0 1])
+  ("formatCEP" .
+   [0 0 0 0 0 0 0 0 1])
+  ("fieldsEmpty" .
+   [0 0 0 0 0 1 1 0 0 0 0])
+  ("data" .
+   [3 0 0 0])
+  ("$scope" .
+   [3 0 0 0 0 0])
+  ("cpf" .
+   [1 0 0])
+  ("Sample" .
    [1 0 0 0 0 0])
   ("BaseClass" .
    [0 0 0 0 0 0 1 0 0])
-  ("Sample" .
+  ("handle" .
    [1 0 0 0 0 0])
-  ("cpf" .
-   [1 0 0])
-  ("$scope" .
-   [2 0 0 0 0 0])
-  ("data" .
+  ("received_json_data" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("response" .
+   [1 0 0 0 0 0 0 0])
+  ("response_data" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("user" .
    [1 0 0 0])
-  ("fieldsEmpty" .
-   [0 0 0 0 0 1 1 0 0 0 0])
-  ("formatCEP" .
-   [0 0 0 0 0 0 0 0 1])
-  ("Function" .
-   [0 0 1 0 0 1 0 1])
-  ("function" .
-   [0 0 0 0 2 0 0 0])
-  ("var" .
-   [1 0 0])))
+  ("doit" .
+   [0 0 0 1])
+  ("webapp" .
+   [0 0 0 0 0 1])
+  ("RequestHandler" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("get" .
+   [1 0 0])
+  ("bar" .
+   [1 0 0])
+  ("total" .
+   [1 0 0 0 0])))
