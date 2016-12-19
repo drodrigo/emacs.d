@@ -2,9 +2,15 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/app/js/" . "auth/")
+ ("/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/" . "app/")
+ ("/home/dyego/Documents/code-stuff/python/" . "appengine-guestbook-python/")
+ ("/home/dyego/Documents/code-stuff/ruby/" . "podcast-central/")
+ ("/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/app/" . "js/")
+ ("/home/dyego/Documents/code-stuff/pdb/promocielo-project/" . "src/")
  ("/home/dyego/Documents/code-stuff/pdb/pdbcontest2/" . "src/")
  ("/home/dyego/Documents/code-stuff/pdb/promo-info/" . "src/")
- ("/home/dyego/Documents/code-stuff/pdb/" . "promo-info/")
+ ("/home/dyego/Documents/code-stuff/pdb/" . "promocielo-project/")
  ("/home/dyego/Documents/code-stuff/" . "pdb/")
  ("/home/dyego/Documents/" . "code-stuff/")
  ("/home/dyego/" . "Documents/")
@@ -12,37 +18,90 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/app/js/auth/"
+ "/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/"
+ "/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/app/js/"
  "/home/dyego/Documents/code-stuff/pdb/promo-info/src/"
+ "/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/app/lib/"
+ "/home/dyego/Documents/code-stuff/pdb/promocielo-project/"
+ "/home/dyego/Documents/code-stuff/python/appengine-guestbook-python/"
+ "/home/dyego/Documents/code-stuff/ruby/podcast-central/"
+ "/home/dyego/Documents/"
+ "/home/dyego/Documents/code-stuff/pdb/pdbcontest2/"
  "/home/dyego/Documents/code-stuff/pdb/pdbcontest2/src/"
+ "/home/dyego/Documents/code-stuff/pdb/receipt-scanner-mock/"
+ "/home/dyego/Documents/code-stuff/pdb/"
  "~/Documents/code-stuff/pdb/promo-info/src/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "login.js"
  "main.py"
+ "loader.js"
+ "jquery.min.js"
+ "parsley.min.js"
  "app.yaml"
  "TAGS"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/dyego/" (22596 28528 259349 490000) "Videos/" ".mozilla/" ".mysql/" "Pictures/" ".zshrc" ".appcfg_oauth2_tokens" "popcorntime.tar.xz" ".gitconfig" ".macromedia/" ".npm/" "Documents/" ".ctags" ".vimrc" ".mysql_history" ".local/" ".Xauthority" ".adobe/" ".profile" ".bundle/" "../" ".pdbrc" ".NERDTreeBookmarks" ".vim/" ".zsh_history" "examples.desktop" ".gnupg/" ".fonts/" "Templates/" "README.md" ".nvimrc" ".gnome2_private/" ".v8flags.5.1.281.84.dyego.json" ".dmrc" "Music/" ".viminfo" ".gem/" ".zshrc.backup" ".emacs.d/" ".zsh-update" ".gconf/" "./" ".bash_logout" ".gnome2/" ".gnome/" ".cache/" ".zcompdump" "Desktop/" ".oh-my-zsh/" ".zcompdump-dyego-Inspiron-7520-5.1.1" ".git-credentials" ".thunderbird/" ".bash_history" "Downloads/" ".sudo_as_admin_successful" ".xsession-errors.old" "Public/" ".pki/" ".config/" ".atom/" ".nvim/" ".tmux.conf" ".xsession-errors" ".bashrc" ".wget-hsts" ".ICEauthority")
+ ("/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/app/js/auth/" (22613 23351 249873 756000) "../" "login.js" "./")
 
- ("/home/dyego/Documents/code-stuff/pdb/promo-info/src/" (22596 14617 914256 939000) "main.py" "pdbcontesttest1.json" "../" "platform/" "templates/" "core/" "bigquery/" "appengine_config.py" "lib/" "static/" ".gitignore" "./" "app_dev.yaml" "main.pyc" "tests/" "appengine_config.pyc" "app.yaml" "app_homolog.yaml" "config/")
+ ("/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/app/" (22613 30267 591219 131000) "cadastrocv.html" "footer.html" "js/" ".git" "../" "TAGS" "index.html" "regulamento.html" "CadastroLojista.html" "comoparticipar.html" ".DS_Store" "css/" "header.html" "meusnumeros.html" "contato.html" "README.md" "lib/" "CadastroUsuario.html" ".gitignore" "lojasparticipantes.html" "extrato.html" "esqueci.html" "./" "images/" "nova-senha.html" "faq.html" "ganhadores.html" "pdf/")
 
- ("/home/dyego/Documents/code-stuff/pdb/pdbcontest2/" (22596 18352 325772 105000) "exec/" "uploadinfo.sh" ".git/" "jmeter/" "../" "TAGS" "temp/" "runtests.sh" "files/" "runsonar.sh" "test_result_jmeter/" "README.md" "tags" ".gitignore" "cert_ssl/" ".pydevproject.bak" "shell_scripts/" "legancy/" "./" "docs/" "src/")
+ ("/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/" (22613 30351 128651 737000) "main_promo.py" "main.py" "exception/" "helper/" "backend/" "../" "util/" "templates/" "TAGS" "core/" "index.yaml" "__init__.py" "appengine_config.py" "lib/" "main_promo.pyc" ".gitignore" "app/" "./" "app_dev.yaml" "services/" "main.pyc" "constants.py" "endpoint/" "appengine_config.pyc" "settings/" "app.yaml" "main_site.py" "config/")
 
- ("/home/dyego/Documents/code-stuff/pdb/pdbcontest2/src/" (22596 18352 325772 105000) "__init__.pyc" "main.py" "helpers/" "mypromo/" "mysqlpool/" "main_auth.pyc" ".sonar/" "immediateprize/" "../" "purchase/" "TAGS" "sonar-project.properties" "core/" "index.yaml" "__init__.py" "appengine_config.py" "lib/" ".dockerignore" "static/" ".gitignore" "temp.py" "main_auth.py" "connector/" "dispatch.yaml" "./" "app_dev.yaml" "main.pyc" "setuppromo/" "tests/" "endpoint/" "main_view.py" "appengine_config.pyc" "emailsender/" "app.yaml" "proc_central.sql" "config/")
+ ("/home/dyego/" (22613 30396 293424 823000) ".cordova/" ".compiz/" "Videos/" ".mozilla/" ".mysql/" "Pictures/" ".zshrc" ".appcfg_oauth2_tokens" ".rpmdb/" "popcorntime.tar.xz" ".gitconfig" ".macromedia/" ".npm/" "Documents/" ".ctags" ".vimrc" ".mysql_history" ".local/" ".Xauthority" ".adobe/" ".profile" ".psensor/" ".bundle/" "../" ".pdbrc" ".steampath" ".NERDTreeBookmarks" ".vim/" ".zsh_history" ".pulse-cookie" "examples.desktop" ".gnupg/" ".fonts/" "Templates/" "README.md" ".nvimrc" ".gnome2_private/" ".v8flags.5.1.281.84.dyego.json" ".dmrc" "Music/" ".viminfo" ".gem/" ".zshrc.backup" ".emacs.d/" ".bashrc.backup" ".zsh-update" ".gconf/" ".ionic/" "./" ".bash_logout" ".gnome2/" ".gnome/" ".cache/" ".zcompdump" "Desktop/" ".oh-my-zsh/" ".zcompdump-dyego-Inspiron-7520-5.1.1" ".git-credentials" ".thunderbird/" ".bash_history" "Downloads/" ".sudo_as_admin_successful" ".steam/" ".xsession-errors.old" "Public/" ".pki/" ".config/" ".atom/" ".ssh/" ".nvim/" ".tmux.conf" ".xsession-errors" ".steampid" ".bashrc" ".wget-hsts" ".ICEauthority")
 
- ("~/Documents/code-stuff/pdb/promo-info/src/" (22596 12179 75721 160000) "main.py" "pdbcontesttest1.json" "../" "platform/" "templates/" "core/" "bigquery/" "appengine_config.py" "lib/" "static/" ".gitignore" "./" "app_dev.yaml" "main.pyc" "tests/" "appengine_config.pyc" "app.yaml" "app_homolog.yaml" "config/")
+ ("/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/app/js/" (22613 24673 698901 298000) "../" "home/" "register/" "zepto.js" "auth/" "promo/" "loader.js" "routes.js" "helper.js" "./" "lojas/" "regulation/")
+
+ ("/home/dyego/Documents/code-stuff/pdb/promo-info/src/core/helpers/" (22609 56102 494387 943000) "../" "__init__.py" "datehelper.py" "./")
+
+ ("/home/dyego/Documents/code-stuff/pdb/promo-info/src/" (22609 53311 268134 390000) "main.py" "pdbcontesttest1.json" "../" "platform/" "templates/" "core/" "bigquery/" "appengine_config.py" "lib/" "static/" ".gitignore" "./" "app_dev.yaml" "main.pyc" "tests/" "appengine_config.pyc" "app.yaml" "app_homolog.yaml" "config/")
+
+ ("/home/dyego/Documents/code-stuff/pdb/promo-info/" (22609 53328 225750 94000) "uploadinfo.sh" ".git/" "../" ".settings/" ".gitignore" "./" "src/")
+
+ ("/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/app/lib/" (22603 12867 178424 702000) "sprint.min.js" "../" "way.min.js" "parsley.min.js" "sweetalert.min.js" "./" "qwest.min.js")
+
+ ("/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/app/js/promo/" (22607 11646 287630 162000) "extract.js" "../" "./" "participation.js" "consult.js")
+
+ ("/home/dyego/Documents/code-stuff/pdb/promocielo-project/" (22607 10450 22520 793000) ".git/" "../" ".gitignore" ".gitmodules" "./" "src/")
+
+ ("/home/dyego/Documents/code-stuff/python/appengine-guestbook-python/" (22605 51084 42594 267000) "bootstrap/" "e2e/" "Makefile" ".emacs.desktop" "guestbook.py" "#guestbook.py#" ".git/" ".ropeproject/" "../" "CONTRIB.md" "index.html" "index.yaml" "LICENSE" "README.md" ".gitignore" "favicon.ico" "./" "guestbook.pyc" "app.yaml")
+
+ ("/home/dyego/Documents/code-stuff/ruby/podcast-central/" (22605 51109 717865 551000) ".emacs.desktop" "tmp/" "log/" ".git/" "Rakefile" ".rspec" "Guardfile" "../" "spec/" "public/" "Gemfile.lock" ".settings/" "Wishlist.txt" ".secret" "README.md" "tags" "lib/" ".gitignore" "vendor/" "app/" "Gemfile" "./" "README.rdoc" "encoding.js" ".emacs.desktop.lock" "bin/" "db/" "config.ru" "config/")
+
+ ("/home/dyego/Documents/code-stuff/ruby/podcast-central/app/controllers/" (22605 51921 734617 55000) "application_controller.rb" "concerns/" "api/" "relationships_controller.rb" "podcasts_controller.rb" "../" "sessions_controller.rb" "users_controller.rb" "./" "static_pages_controller.rb" "#users_controller.rb#")
+
+ ("/home/dyego/Documents/code-stuff/python/" (22594 4360 931740 294000) "../" "appengine-guestbook-python/" ".nvimrc" "./" ".nvim")
+
+ ("/home/dyego/Documents/code-stuff/javascript/" (22587 2806 39333 0) "../" "./")
+
+ ("/home/dyego/Documents/code-stuff/ruby/podcast-central/app/" (22587 5601 286285 823000) "admin/" "assets/" "helpers/" "mailers/" "controllers/" "../" "views/" "uploaders/" "./" "models/")
+
+ ("/home/dyego/Documents/code-stuff/ruby/" (22587 5592 986049 143000) "podcast-central/" "../" "./")
+
+ ("~/Documents/code-stuff/pdb/promo-info/src/" (22596 50189 106551 451000) "main.py" "pdbcontesttest1.json" "../" "platform/" "templates/" "core/" "bigquery/" "appengine_config.py" "lib/" "static/" ".gitignore" "./" "app_dev.yaml" "main.pyc" "tests/" "appengine_config.pyc" "app.yaml" "app_homolog.yaml" "config/")
+
+ ("/home/dyego/Documents/code-stuff/pdb/pdbcontest2/src/" (22599 22463 439948 940000) "main.py" "helpers/" "mypromo/" "mysqlpool/" ".sonar/" "../" "purchase/" "sonar-project.properties" "core/" "index.yaml" "__init__.py" "appengine_config.py" "lib/" ".dockerignore" "static/" ".gitignore" "temp.py" "main_auth.py" "connector/" "dispatch.yaml" "./" "app_dev.yaml" "setuppromo/" "tests/" "endpoint/" "main_view.py" "app.yaml" "proc_central.sql" "config/")
+
+ ("/home/dyego/Documents/code-stuff/pdb/pdbcontest2/" (22599 22407 919692 806000) "exec/" "uploadinfo.sh" ".git/" "jmeter/" ".ropeproject/" "../" "temp/" "runtests.sh" "files/" "runsonar.sh" "test_result_jmeter/" "README.md" ".gitignore" "cert_ssl/" ".pydevproject.bak" "shell_scripts/" "legancy/" "./" "docs/" "src/")
+
+ ("/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/app/js/register/" (22600 38010 455632 858000) "../" "registerUser.js" "./" "updateUser.js")
+
+ ("/home/dyego/Documents/code-stuff/pdb/" (22600 36170 478576 63000) "receipt-scanner-mock/" "pdb-user-module/" "promo-info/" "../" "hotsite-mentos-bombameuperfil/" "promodebolsoservice/" "pdbcontest2/" "./" "promocielo-project/")
+
+ ("/home/dyego/Documents/code-stuff/pdb/receipt-scanner-mock/www/js/" (22598 4417 95808 371000) "../" "app.js" "lib/" "./" "controllers.js")
+
+ ("/home/dyego/Documents/code-stuff/pdb/receipt-scanner-mock/www/" (22597 61518 773843 305000) "js/" "../" "templates/" "index.html" "css/" "lib/" "./" "img/")
+
+ ("/home/dyego/Documents/code-stuff/pdb/receipt-scanner-mock/" (22597 61518 601840 234000) "resources/" ".editorconfig" "scss/" ".git/" "../" "hooks/" "package.json" ".gitignore" "ionic.project" "www/" "config.xml" "./" "gulpfile.js" "bower.json" ".bowerrc")
 
  ("/home/dyego/Documents/code-stuff/pdb/pdbcontest2/files/" (22587 4490 57636 41000) "test.csv" "../" "test_large.csv" "sql/" "generateCsv.js" "./")
 
  ("/home/dyego/Documents/code-stuff/pdb/pdbcontest2/files/sql/" (22596 14465 101734 857000) "prc_get_immediate_prize.sql" "create_table_immediate_prize.sql" "../" "./" "proc_file.sql" "prc_get_number_for_file.sql" "prc_get_number.sql")
-
- ("/home/dyego/Documents/code-stuff/pdb/promo-info/" (22596 12021 138265 154000) "uploadinfo.sh" ".git/" "../" "TAGS" ".settings/" ".gitignore" "./" "src/")
-
- ("/home/dyego/Documents/code-stuff/pdb/" (22592 45130 572928 110000) "pdb-user-module/" "promo-info/" "../" "hotsite-mentos-bombameuperfil/" "promodebolsoservice/" "pdbcontest2/" "./")
 
  ("/home/dyego/Documents/code-stuff/" (22595 25537 120620 451000) "emacs.d/" "pdb/" "../" "./" "ruby/" "javascript/" "python/")
 

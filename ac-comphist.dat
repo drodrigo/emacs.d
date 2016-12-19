@@ -1,4 +1,62 @@
-((("number" .
+((("errorThrown" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("textStatus" .
+   [0 0 0 0 0 1 1 0 0 0])
+  ("jqXHR" .
+   [0 0 0 2 0])
+  ("log" .
+   [2 0 0])
+  ("console" .
+   [2 0 0 0 0 0 0])
+  ("fail" .
+   [1 0 0 0])
+  ("done" .
+   [1 0 0 0])
+  ("email" .
+   [1 0 0 0 0])
+  ("d" .
+   [1])
+  ("list_coupons" .
+   [1 0 0 0 0 0 0 0 1 0 0 0])
+  ("current_participation" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("append" .
+   [1 0 0 0 0 0])
+  ("list_participation_response" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("immediate_prize" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("list_draw_number" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("participation_date" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("Participou" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("core" .
+   [1 0 0 0])
+  ("get_local_date" .
+   [0 0 0 0 0 0 2 0 0 0 0 0 0 0])
+  ("static_path" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("persistent" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("true" .
+   [1 0 0 0])
+  ("set" .
+   [1 0 0])
+  ("way" .
+   [1 0 0])
+  ("currentTarget" .
+   [1 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("swal" .
+   [2 0 0 0])
+  ("QueryInfo" .
+   [0 0 0 0 0 0 0 0 1])
+  ("ConfigFile" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("get_config_variable" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("number" .
    [2 0 0 0 0 0])
   ("aux" .
    [1 0 0])
@@ -17,7 +75,7 @@
   ("product" .
    [2 0 0 0 0 0 0])
   ("products" .
-   [1 0 0 0 0 0 0 0])
+   [4 0 0 0 0 0 0 0])
   ("date" .
    [1 0 0 0])
   ("api" .
@@ -35,7 +93,7 @@
   ("fieldsEmpty" .
    [0 0 0 0 0 1 1 0 0 0 0])
   ("data" .
-   [3 0 0 0])
+   [4 0 0 0])
   ("$scope" .
    [3 0 0 0 0 0])
   ("cpf" .
@@ -49,7 +107,7 @@
   ("received_json_data" .
    [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
   ("response" .
-   [1 0 0 0 0 0 0 0])
+   [4 0 0 0 0 0 0 0])
   ("response_data" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0])
   ("user" .
@@ -61,8 +119,16 @@
   ("RequestHandler" .
    [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
   ("get" .
-   [1 0 0])
+   [3 0 0])
   ("bar" .
    [1 0 0])
   ("total" .
-   [1 0 0 0 0])))
+   [1 0 0 0 0])
+  ("participation_info" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("totnumber" .
+   [1 0 0 0 0 0 0 0 0])
+  ("list_products" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("products_dict" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0])))

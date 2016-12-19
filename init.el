@@ -8,8 +8,8 @@
 
 
 ;;Exec path from shell
-(when (memq window-system '(mac ns))
-  (exec-path-from-shell-initialize))
+; (when (memq window-system '(mac ns))
+(exec-path-from-shell-initialize)
 ;;Evil
   (require 'evil)
   (evil-mode 1)
@@ -17,11 +17,11 @@
 ;;Neotree
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
-(setq neo-smart-open t)
+; (setq neo-smart-open t)
 
 
 ;;Fiplr
-(setq fiplr-ignored-globs '((directories (".git" ".svn" "node_modules" "platforms" "plugins"))
+(setq fiplr-ignored-globs '((directories (".git" ".svn" "node_modules" "platforms" "plugins" "tmp"))
                             (files ("*.jpg" "*.png" "*.zip" "*~"))))
 (global-set-key (kbd "C-x f") 'fiplr-find-file)
 
@@ -76,7 +76,7 @@
 
 ;;Personal config after
 ;;(load-theme 'solarized- t)
-(load-theme 'solarized-light t)
+(load-theme 'atom-one-dark t)
 (global-linum-mode t)
 (menu-bar-mode 0)
 (tool-bar-mode 0)
@@ -90,8 +90,7 @@
 
 
 ;;JS2 Mode
-(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
-(add-to-list 'auto-mode-alist '("\\.js\\'" . js-mode))
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js3-mode))
 
 ;;WeB Mode
 (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
@@ -107,6 +106,8 @@
 (add-to-list 'auto-mode-alist '("\\.scss\\'" . less-css-mode))
 
 
+(define-coding-system-alias 'UTF-8 'utf-8)
+
 
 
 ;; Ctags
@@ -115,7 +116,7 @@
   (interactive)
   (message "building project tags")
   (let ((root (eproject-root)))
-   (shell-command (concat "ctags -e -R --extra=+fq --exclude=db --exclude=t    est --exclude=platforms --exclude=plugins --exclude=node_modules --exclude=.    git --exclude=public --exclude=lib --exclude=config --exclude=TDD --exclude=    old -f " root "TAGS " root)))
+   (shell-command (concat "ctags -e -R --extra=+fq --exclude=db --exclude=t    est --exclude=platforms --exclude=plugins --exclude=node_modules --exclude=.    git --exclude=public --exclude=lib --exclude=tmp --exclude=config --exclude=TDD --exclude=    old -f " root "TAGS " root)))
 
   (visit-project-tags)
   (message "tags built successfully"))
@@ -141,7 +142,7 @@
     (move-beginning-of-line 1)  
     (insert "import pdb; pdb.set_trace();\n"))  
 
-(global-set-key (kbd "<f9>") 'add-py-debug)
+(global-set-key (kbd "<f1>") 'add-py-debug)
 
 (defun remove-py-debug ()  
   "remove py debug code, if found"  
@@ -156,7 +157,7 @@
       (move-beginning-of-line 1))  
       (goto-char cur))))  
 
-(global-set-key (kbd "C-c <f9>") 'remove-py-debug)
+(global-set-key (kbd "C-c <f1>") 'remove-py-debug)
 
 (global-set-key (kbd "<f3>") '(lambda ()  
                                  (interactive)   
@@ -172,10 +173,16 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("b571f92c9bfaf4a28cb64ae4b4cdbda95241cd62cf07d942be44dc8f46c491f4" "427fed191e7a766152e59ef0e2904283f436dbbe259b9ccc04989f3acde50a55" "8abee8a14e028101f90a2d314f1b03bed1cde7fd3f1eb945ada6ffc15b1d7d65" "a164837cd2821475e1099911f356ed0d7bd730f13fa36907895f96a719e5ac3e" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" default)))
+    ("6254372d3ffe543979f21c4a4179cd819b808e5dd0f1787e2a2a647f5759c1d1" "a1289424bbc0e9f9877aa2c9a03c7dfd2835ea51d8781a0bf9e2415101f70a7e" "b571f92c9bfaf4a28cb64ae4b4cdbda95241cd62cf07d942be44dc8f46c491f4" "427fed191e7a766152e59ef0e2904283f436dbbe259b9ccc04989f3acde50a55" "8abee8a14e028101f90a2d314f1b03bed1cde7fd3f1eb945ada6ffc15b1d7d65" "a164837cd2821475e1099911f356ed0d7bd730f13fa36907895f96a719e5ac3e" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" default)))
  '(menu-bar-mode nil)
  '(tool-bar-mode nil))
 
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
 (setq indent-line-function 'insert-tab)
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

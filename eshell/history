@@ -24,3 +24,34 @@ dev_appserver.py app.yaml
 env
 echo $PATH
 clear
+dev_appserver.py app.yaml
+dev_appserver.py
+ls
+ls
+pwd
+which
+..
+..
+dev_appserver.py
+..
+exec zsh
+exec
+ls
+pwd
+ls
+clear
+ls
+dev_appserver.py
+pwd
+dev_appserver.py 
+clear
+..
+..
+dev_appserver.py app.yaml 
+dev_appserver.py --clear_datastore=true app.yaml 
+dev_appserver.py app.yaml 
+INFO     2016-12-17 17:34:41,363 module.py:788] cielonarotadoverao2016: "POST /_ah/spi/BackendService.getApiConfigs HTTP/1.1" 200 16021
+dev_appserver.py --clear_datastore=true app.yaml 
+dev_appserver.py --clear_datastore=true app.yaml 
+dev_appserver.py app.yaml 
+dev_appserver.py app_dev.yaml 
