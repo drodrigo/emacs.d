@@ -76,7 +76,7 @@
 
 ;;Personal config after
 ;;(load-theme 'solarized- t)
-(load-theme 'atom-one-dark t)
+(load-theme 'base16-default-dark t)
 (global-linum-mode t)
 (menu-bar-mode 0)
 (tool-bar-mode 0)
