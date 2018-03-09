@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/dyego/Documents/code-stuff/pagarme/" . "pagarme-core/")
  ("/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/app/js/" . "auth/")
  ("/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/" . "app/")
  ("/home/dyego/Documents/code-stuff/python/" . "appengine-guestbook-python/")
@@ -11,13 +12,16 @@
  ("/home/dyego/Documents/code-stuff/pdb/pdbcontest2/" . "src/")
  ("/home/dyego/Documents/code-stuff/pdb/promo-info/" . "src/")
  ("/home/dyego/Documents/code-stuff/pdb/" . "promocielo-project/")
- ("/home/dyego/Documents/code-stuff/" . "pdb/")
+ ("/home/dyego/Documents/code-stuff/" . "pagarme/")
  ("/home/dyego/Documents/" . "code-stuff/")
- ("/home/dyego/" . "Documents/")
+ ("/home/dyego/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/dyego/.emacs.d/"
+ "/home/dyego/Documents/code-stuff/pagarme/pagarme-core/"
+ "/home/dyego/Documents/code-stuff/pagarme/"
  "/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/app/js/auth/"
  "/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/"
  "/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/app/js/"
@@ -36,6 +40,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "init.el"
  "login.js"
  "main.py"
  "loader.js"
@@ -47,13 +52,33 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/dyego/Documents/code-stuff/pagarme/pagarme-core/api/test/" (22933 9462 827917 787000) "integration/" "../" "./" "helpers/" "unit/" "e2e/")
+
+ ("/home/dyego/Documents/code-stuff/pagarme/pagarme-core/api/test/e2e/" (23194 4988 889720 5000) "card.js" "invite.js" "security-rule.js" "../" "bank_account.js" "terminal.js" "balance.js" "chargeback.js" "transaction.js" "session.js" "plan.js" "transaction/" "./" "accepted-agreement.js" "postback.js" "file.js" "customer.js" "legal-agreement.js" "zipcodes.js" "terminal-updates.js" "helpers/" "company.js" "user.js" "subscription.js" "gateway/" "order/" "company-acquirer.js" "common.js" "jsonp.js" "events.js" "customers/" "hal.js" "bulk-anticipation.js" "support/" "search.js" "split-rule.js" "transfer.js" "refund.js" "event.js" "expect.js" "antifraud-gateway.js" "bulk.js" "recipient.js" "authentication.js" "subscription/" "company-acquirer-configuration.js")
+
+ ("/home/dyego/Documents/code-stuff/pagarme/pagarme-core/api/test/e2e/order/" (23199 23825 661545 530000) "../" "create.js" "./" "cancel.js" "retrieve.js")
+
+ ("/home/dyego/.emacs.d/" (23199 23273 323661 297000) "../" "auto-save-list/" ".gitignore" ".git/" "./" "eshell/" "elpa/" "init.el" "ido.last" "snippets/" "ac-comphist.dat")
+
+ ("/home/dyego/Documents/code-stuff/pagarme/pagarme-core/api/" (23194 4988 886386 716000) "Dockerfile" ".travis.yml" "test/" "../" "node_modules/" "lib/" ".github/" ".eslintignore" "package.json" "schemas/" "script/" "errors/" "controllers/" ".gitignore" "./" "docker-compose.yml" "services/" "helpers/" "config/" "data/" "bin/" "build-compose.yml" "README.md" "test_data/")
+
+ ("/home/dyego/Documents/code-stuff/pagarme/pagarme-core/api/bin/" (23198 2782 577437 864000) "../" "probe.js" "rexlab-register-client.js" "./" "server.js" "hal.js" "affiliation-worker.js" "elasticshot.js" "hookshot.js" "console.js")
+
+ ("/home/dyego/Documents/code-stuff/pagarme/pagarme-core/" (23194 4988 889720 5000) "Dockerfile" ".travis.yml" "notifier/" "../" "node_modules/" ".github/" ".eslintignore" "package.json" ".node-version" "deps/" "CHANGELOG.md" "script/" "api/" ".gitmodules" ".gitignore" ".editorconfig" ".git/" "./" "docker-compose.yml" "database/" "docker-tag.sha1" "configs/" "gateway/" "Makefile" "package-lock.json" "tags" "api-admin/" "eldorado/" "README.md" ".tern-project" ".lvimrc" ".eslintrc.js")
+
+ ("/home/dyego/Documents/code-stuff/pagarme/" (23185 1473 741460 126000) "warp-pipe/" "pagarme-notifier/" "pilot/" "pagarme-database/" "react-payment-card-component/" "gandalf-js/" "../" "infra-diagrams/" "pagarme-api-admin/" "typeracer-sqn/" "le-gendash/" "sqs-quooler/" "zelda/" "./" "patches/" "pagarme-api/" "javascript-style-guide/" "pagarme-dashboard/" "cadu-js/" "mc-linter/" "json.json" "pagarme-core/" "pagarme-gateway/" "challenges/" "superbowleto/" "puppet/")
+
+ ("/home/dyego/Documents/code-stuff/" (23179 8090 409519 323000) "dotfiles/" "../" "emacs.d/" "pagarme/" "clojure/" "./" "python/" "pagarme-core/" "pagarme-gateway/" "leetcode/" "graph.json" "front/" "js/")
+
+ ("/home/dyego/" (23199 23009 302989 929000) ".zoom/" ".gnome/" ".oh-my-zsh/" ".cache/" ".bash_logout" ".fzf/" ".gitconfig" "clojure-basics/" ".xscreensaver" "../" "node_modules/" "Desktop/" ".v8flags.6.0.286.52.dyego.json" "Public/" "Videos/" "Recordings/" ".vimr" "Templates/" ".gnupg/" ".pdbrc" ".pyenv/" ".pki/" ".bash_history" ".yarn/" ".fzf.bash" ".tmux.conf" "wtf2.js" ".wget-hsts" "migration.txt" ".v8flags.6.0.286.52.7db6c23d96c6141a27679be248ac4d73.json" ".gitignore" ".rnd" "go/" "dead.letter" ".bzr.log.old" "./" ".lein/" ".PlayOnLinux/" ".lesshst" ".psensor/" "wtf.js" ".ICEauthority" ".IdeaIC2017.3/" ".NERDTreeBookmarks" ".python_history" ".babel.json" ".hplip/" ".fonts/" ".bzr.log" ".xsession-errors.old" "PlayOnLinux's virtual drives/" ".ssh/" ".ctags" "mkt-docs.txt" "Music/" ".ssr/" ".zcompdump-supimpa-5.4.1" ".java/" ".xsession-errors" "graphtoken" ".dub/" "gtk-recordMyDesktop-crash.log" ".oni/" ".sqlmap/" ".config/" "Documents/" "package-lock.json" "table.txt" ".zcompdump-supimpa-5.4.2" ".gtk-recordmydesktop" ".npmrc" ".Xauthority" ".yarnrc" ".vscode/" ".pylint.d/" ".v8flags.6.2.414.46-node.15.7db6c23d96c6141a27679be248ac4d73.json" ".node-gyp/" ".fzf.zsh" ".vim/" ".android/" ".zsh_history" ".emacs.d/" ".esd_auth" ".node_repl_history" "README.md" "block.py" ".bash_profile" ".zshrc" ".dmrc" "Downloads/" ".viminfo" ".m2/" ".local/" "Pictures/" ".vimrc" ".npm/" ".zsh-update" ".pylintrc" ".bashrc")
+
+ ("/home/dyego/Documents/" (23059 39417 753596 172000) "../" "PANDA.amigo-do-bem-bb33636459f8eaf9a3ec79caa19bc6b7cb05b60a/" "cadernodecampobayer-41c90db4cd8ed38caec477e7fe3c7ed1449ac08a/" "./" "code-stuff/")
+
  ("/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/app/js/auth/" (22613 23351 249873 756000) "../" "login.js" "./")
 
  ("/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/app/" (22613 30267 591219 131000) "cadastrocv.html" "footer.html" "js/" ".git" "../" "TAGS" "index.html" "regulamento.html" "CadastroLojista.html" "comoparticipar.html" ".DS_Store" "css/" "header.html" "meusnumeros.html" "contato.html" "README.md" "lib/" "CadastroUsuario.html" ".gitignore" "lojasparticipantes.html" "extrato.html" "esqueci.html" "./" "images/" "nova-senha.html" "faq.html" "ganhadores.html" "pdf/")
 
  ("/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/" (22613 30351 128651 737000) "main_promo.py" "main.py" "exception/" "helper/" "backend/" "../" "util/" "templates/" "TAGS" "core/" "index.yaml" "__init__.py" "appengine_config.py" "lib/" "main_promo.pyc" ".gitignore" "app/" "./" "app_dev.yaml" "services/" "main.pyc" "constants.py" "endpoint/" "appengine_config.pyc" "settings/" "app.yaml" "main_site.py" "config/")
-
- ("/home/dyego/" (22613 30396 293424 823000) ".cordova/" ".compiz/" "Videos/" ".mozilla/" ".mysql/" "Pictures/" ".zshrc" ".appcfg_oauth2_tokens" ".rpmdb/" "popcorntime.tar.xz" ".gitconfig" ".macromedia/" ".npm/" "Documents/" ".ctags" ".vimrc" ".mysql_history" ".local/" ".Xauthority" ".adobe/" ".profile" ".psensor/" ".bundle/" "../" ".pdbrc" ".steampath" ".NERDTreeBookmarks" ".vim/" ".zsh_history" ".pulse-cookie" "examples.desktop" ".gnupg/" ".fonts/" "Templates/" "README.md" ".nvimrc" ".gnome2_private/" ".v8flags.5.1.281.84.dyego.json" ".dmrc" "Music/" ".viminfo" ".gem/" ".zshrc.backup" ".emacs.d/" ".bashrc.backup" ".zsh-update" ".gconf/" ".ionic/" "./" ".bash_logout" ".gnome2/" ".gnome/" ".cache/" ".zcompdump" "Desktop/" ".oh-my-zsh/" ".zcompdump-dyego-Inspiron-7520-5.1.1" ".git-credentials" ".thunderbird/" ".bash_history" "Downloads/" ".sudo_as_admin_successful" ".steam/" ".xsession-errors.old" "Public/" ".pki/" ".config/" ".atom/" ".ssh/" ".nvim/" ".tmux.conf" ".xsession-errors" ".steampid" ".bashrc" ".wget-hsts" ".ICEauthority")
 
  ("/home/dyego/Documents/code-stuff/pdb/promocielo-project/src/app/js/" (22613 24673 698901 298000) "../" "home/" "register/" "zepto.js" "auth/" "promo/" "loader.js" "routes.js" "helper.js" "./" "lojas/" "regulation/")
 
@@ -102,10 +127,6 @@
  ("/home/dyego/Documents/code-stuff/pdb/pdbcontest2/files/" (22587 4490 57636 41000) "test.csv" "../" "test_large.csv" "sql/" "generateCsv.js" "./")
 
  ("/home/dyego/Documents/code-stuff/pdb/pdbcontest2/files/sql/" (22596 14465 101734 857000) "prc_get_immediate_prize.sql" "create_table_immediate_prize.sql" "../" "./" "proc_file.sql" "prc_get_number_for_file.sql" "prc_get_number.sql")
-
- ("/home/dyego/Documents/code-stuff/" (22595 25537 120620 451000) "emacs.d/" "pdb/" "../" "./" "ruby/" "javascript/" "python/")
-
- ("/home/dyego/Documents/" (22587 3151 554854 473000) "../" "code-stuff/" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
