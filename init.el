@@ -160,7 +160,8 @@
                                  (search-forward-regexp "^[ ]*import pdb; pdb.set_trace();")   
                                  (move-beginning-of-line 1)))
 
-
+;disable auto save
+(setq auto-save-default nil)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
